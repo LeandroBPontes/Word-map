@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1568892363 source:c:\users\admin\documents\projetomapa\mapa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Mapa.h"
+	<locale.h>
+
+1568892132 c:\users\admin\documents\projetomapa\mapa\mapa.h
+
+1568893003 source:c:\users\admin\documents\projetomapa\mapa\mapa.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Mapa.h"
+
+1596110472 source:c:\users\leandro barros\desktop\mapa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Mapa.h"
+	<locale.h>
+
+1596021391 c:\users\leandro barros\desktop\mapa\mapa.h
+
+1596030923 source:c:\users\leandro barros\desktop\mapa\mapa.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Mapa.h"
+
+1596657207 source:c:\users\leandro barros\desktop\mapa_principal\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Mapa.h"
+	<locale.h>
+
+1596021391 c:\users\leandro barros\desktop\mapa_principal\mapa.h
+
+1596657440 source:c:\users\leandro barros\desktop\mapa_principal\mapa.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Mapa.h"
+
