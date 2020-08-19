@@ -27,17 +27,19 @@
 	<string.h>
 	"Mapa.h"
 
-1596657207 source:c:\users\leandro barros\desktop\mapa_principal\main.c
+1597789805 source:c:\users\leandro barros\desktop\mapa_principal\main.c
 	<stdio.h>
 	<stdlib.h>
-	"Mapa.h"
 	<locale.h>
+	<string.h>
+	"Mapa.h"
 
-1596021391 c:\users\leandro barros\desktop\mapa_principal\mapa.h
+1597787821 c:\users\leandro barros\desktop\mapa_principal\mapa.h
 
-1596657440 source:c:\users\leandro barros\desktop\mapa_principal\mapa.c
+1597788816 source:c:\users\leandro barros\desktop\mapa_principal\mapa.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	<locale.h>
 	"Mapa.h"
 
