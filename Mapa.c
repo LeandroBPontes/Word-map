@@ -5,20 +5,20 @@
 #include "Mapa.h"
 #define TAM 10
 
-//chamadas das funcoes para inicializar e executar as opÁıes
+//chamadas das funcoes para inicializar e executar as op√ß√µes
 int menu(void)
 {
     int c;
     printf("Menu:\n");
-    printf("1. Ler arquivo txt\n");
-    printf("2. Exibir ranking completo\n");
-    printf("3. Exibir intervalo de Ranking\n");
-    printf("4. Buscar palavra\n");
-    printf("5. OpÁıes\n");
-    printf("6. Sair\n");
+    printf("1. Read file txt\n");
+    printf("2. Show complete ranking\n");
+    printf("3. Show ranking range \n");
+    printf("4. Search word\n");
+    printf("5. Options\n");
+    printf("6. Quit \n");
     do
     {
-        printf("\nEntre com sua escolha: ");
+        printf("\nInsert your choice: ");
         scanf("%i", &c);
     }
     while(c<0 || c>6);
@@ -34,7 +34,7 @@ void inicia_mapa (Mapa *mp)
     mp -> lista = malloc(TAM * sizeof(Item*));
     if (mp -> lista == NULL)
     {
-        printf("nao foi possivel alocar");
+        printf("could not allocate");
     }
 
     for (i = 0; i < TAM; i++)
@@ -44,7 +44,7 @@ void inicia_mapa (Mapa *mp)
     }
     if (mp -> lista[i-1] == NULL)
     {
-        printf("nao foi possivel alocar 1");
+        printf("could not allocate");
     }
     mp -> total = 0;
     mp -> blocos = 1;
@@ -171,7 +171,7 @@ int verifica_lista (Mapa *mp, char *s)
     return 0;
 }
 
-// leitura e inserÁ„o com possÌvel troca de arquivos
+// leitura e inser√ß√£o com poss√≠vel troca de arquivos
 
 void leitura_arquivo(Mapa *mp, char *fp)
 {
@@ -229,7 +229,7 @@ void leitura_arquivo(Mapa *mp, char *fp)
     fclose(arq);
 }
 
-// --------------------- FUNCOES DE POSSÕVEIS UTILIDADES FUTURAS ------------------------------------------------------- //
+// --------------------- FUNCOES DE POSS√çVEIS UTILIDADES FUTURAS ------------------------------------------------------- //
 
 //retorna o contador do termo s
 int le_contador (char *fp)
@@ -262,7 +262,7 @@ int escreve_cont (Mapa *mp, char *s, int c)
 // copia o termo em t e retorna t
 // c recebe o contador de termos e retorna
 
-void le_termo (Mapa * mp, int i, char *t, int *c)  //retorna em "t" o termo no Ìndice  "i"
+void le_termo (Mapa * mp, int i, char *t, int *c)  //retorna em "t" o termo no √≠ndice  "i"
 {
 //e em  "c" o seu contador
     for (i = 0; i < mp->total ; i++)
